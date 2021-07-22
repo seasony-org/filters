@@ -44,7 +44,7 @@ namespace filters
 namespace impl
 {
 
-inline std::string normalize_param_prefix(std::string prefix)
+std::string normalize_param_prefix(std::string prefix)
 {
   if (!prefix.empty()) {
     if ('.' != prefix.back()) {
